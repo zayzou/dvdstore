@@ -1,7 +1,6 @@
 package com.zayzou.dvdstore.controller;
 
 import com.zayzou.dvdstore.entity.Movie;
-import com.zayzou.dvdstore.service.MovieService;
 import com.zayzou.dvdstore.service.MovieServiceInterface;
 
 import java.util.Scanner;

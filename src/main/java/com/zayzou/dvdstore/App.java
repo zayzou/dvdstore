@@ -1,16 +1,16 @@
 package com.zayzou.dvdstore;
 
 import com.zayzou.dvdstore.controller.MovieController;
-import com.zayzou.dvdstore.repository.GoLiveMovieRepository;
-import com.zayzou.dvdstore.service.MovieService;
+import com.zayzou.dvdstore.repository.FileMovieRepository;
+import com.zayzou.dvdstore.service.DefaultMovieService;
 
 public class App 
 {
     public static void main( String[] args )
     {
-        GoLiveMovieRepository movieRepository=new GoLiveMovieRepository();
+        FileMovieRepository movieRepository=new FileMovieRepository();
         MovieController movieController = new MovieController();
-        MovieService movieService = new MovieService();
+        DefaultMovieService movieService = new DefaultMovieService();
 
         movieService.setMovieRepository(movieRepository);
         movieController.setMovieService(movieService);
