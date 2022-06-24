@@ -9,7 +9,16 @@ import java.util.Scanner;
 public class MovieController {
 
     MovieServiceInterface movieService ;
- public void addUsingConsole(){
+
+    public MovieServiceInterface getMovieService() {
+        return movieService;
+    }
+
+    public void setMovieService(MovieServiceInterface movieService) {
+        this.movieService = movieService;
+    }
+
+    public void addUsingConsole(){
      Scanner sc = new Scanner(System.in);
 
      System.out.println( "🎬 Movie title ?" );
