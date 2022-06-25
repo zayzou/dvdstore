@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<body>
+<h1>Welcome to the Movie Database 📽 </h1>
+
+<h1>🎬 Movie list</h1>
+
+<table>
+    <tr>
+        <th>🔤 TITLE</th>
+        <th>🔍 GENRE</th>
+    </tr>
+    <tr th:each="movie : ${movies}">
+        <td th:text="${movie.title}"></td>
+        <td th:text="${movie.genre}"></td>
+    </tr>
+</table>
+
+<p>
+    <a href="../home.html" th:href="@{/dvdstore-home}">Return to home</a>
+</p>
+</body>
+</html>

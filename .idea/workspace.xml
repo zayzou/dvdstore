@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 17 : DVDStore : Changer le port et le context root">
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 18 : DVDStore : Fichiers statiques hors de l'application">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/controller/AboutUsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dvdstore-home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/MovieRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/MovieRepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/file/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/file/FileMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/memory/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/memory/MemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/DefaultMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/MovieServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/MovieServiceInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +63,11 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zayzou.dvdstore.App" />
@@ -89,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655749051710</updated>
       <workItem from="1655749053321" duration="1393000" />
-      <workItem from="1656096698870" duration="13815000" />
+      <workItem from="1656096698870" duration="17080000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -182,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656180476171</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Exercice 18 : DVDStore : Fichiers statiques hors de l'application">
+      <created>1656181284751</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656181284751</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +235,7 @@
     <MESSAGE value="Exercice 15 : DVDStore : Standards Maven" />
     <MESSAGE value="Exercice 16 : DVDStore : Mettre en place le serveur d'application" />
     <MESSAGE value="Exercice 17 : DVDStore : Changer le port et le context root" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 17 : DVDStore : Changer le port et le context root" />
+    <MESSAGE value="Exercice 18 : DVDStore : Fichiers statiques hors de l'application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 18 : DVDStore : Fichiers statiques hors de l'application" />
   </component>
 </project>
