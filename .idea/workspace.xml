@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 7 : DVDStore : Valoriser une propriété de type File">
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 8 : DVDStore : Injection automatique des dépendances">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/FileMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/DefaultMovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655749051710</updated>
       <workItem from="1655749053321" duration="1393000" />
-      <workItem from="1656096698870" duration="6804000" />
+      <workItem from="1656096698870" duration="7864000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656163421926</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exercice 8 : DVDStore : Injection automatique des dépendances">
+      <created>1656163831947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656163831947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +145,7 @@
     <MESSAGE value="Exercice 5 : DVDStore : Changement de perspective" />
     <MESSAGE value="Exercice 6 : DVDStore : Exploiter le conteneur légér Spring" />
     <MESSAGE value="Exercice 7 : DVDStore : Valoriser une propriété de type File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 7 : DVDStore : Valoriser une propriété de type File" />
+    <MESSAGE value="Exercice 8 : DVDStore : Injection automatique des dépendances" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 8 : DVDStore : Injection automatique des dépendances" />
   </component>
 </project>

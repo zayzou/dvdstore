@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class FileMovieRepository implements  MovieRepositoryInterface {
+public class FileMovieRepository implements MovieRepositoryInterface {
 
     private File file;
 
@@ -18,16 +18,17 @@ public class FileMovieRepository implements  MovieRepositoryInterface {
         this.file = file;
     }
 
-    public void add(Movie movie){
-    FileWriter writer;
-    try{
-        writer=new FileWriter(file,true);
-        writer.write(movie.getTitle()+";"+ movie.getGenre()+"\n");
-        writer.close();
-    }
-    catch (IOException e){
-        e.printStackTrace();
-    }
+    public void add(Movie movie) {
+        FileWriter writer;
+        try {
+            writer = new FileWriter(file, true);
+            String info = movie.getTitle() + ";" + movie.getGenre();
+            writer.write(info + "\n");
+            writer.close();
+            System.out.println(info + " Added successfully to file");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-}
+    }
 }

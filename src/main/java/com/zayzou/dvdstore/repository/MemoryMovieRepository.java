@@ -5,9 +5,9 @@ import com.zayzou.dvdstore.entity.Movie;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MemoryMovieRepository implements MovieRepositoryInterface{
+public class MemoryMovieRepository implements MovieRepositoryInterface {
 
-    private List<Movie> movies = new ArrayList<>();
+    private final List<Movie> movies = new ArrayList<>();
 
     public void add(Movie movie) {
         movies.add(movie);
