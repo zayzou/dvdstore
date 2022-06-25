@@ -1,6 +1,7 @@
 package com.zayzou.dvdstore.repository;
 
 import com.zayzou.dvdstore.entity.Movie;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -8,6 +9,7 @@ import java.io.IOException;
 
 public class FileMovieRepository implements MovieRepositoryInterface {
 
+    @Value("${movies.file.location}")
     private File file;
 
     public File getFile() {
@@ -21,7 +23,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     public void add(Movie movie) {
         FileWriter writer;
         try {
-            writer = new FileWriter(file, true);
+            writer = new FileWriter(this.getFile(), true);
             String info = movie.getTitle() + ";" + movie.getGenre();
             writer.write(info + "\n");
             writer.close();

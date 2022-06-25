@@ -8,6 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
+    <context:property-placeholder location="classpath:application.properties"/>
 
     <bean class="com.zayzou.dvdstore.controller.MovieController">
         <!--        <property name="movieService" ref="movieService"></property>-->
@@ -18,7 +19,7 @@
     </bean>
 
     <bean id="movieRepository" class="com.zayzou.dvdstore.repository.FileMovieRepository">
-        <property name="file" value="./movies.txt"></property>
+        <!--        <property name="file" value="./movies.txt"></property>-->
     </bean>
 
 </beans>
