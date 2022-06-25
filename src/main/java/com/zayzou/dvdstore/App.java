@@ -1,19 +1,16 @@
 package com.zayzou.dvdstore;
 
-import com.zayzou.dvdstore.controller.MovieController;
-import com.zayzou.dvdstore.repository.FileMovieRepository;
-import com.zayzou.dvdstore.service.DefaultMovieService;
 
-public class App 
+import com.zayzou.dvdstore.controller.MovieController;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App
 {
     public static void main( String[] args )
     {
-        FileMovieRepository movieRepository=new FileMovieRepository();
-        MovieController movieController = new MovieController();
-        DefaultMovieService movieService = new DefaultMovieService();
-
-        movieService.setMovieRepository(movieRepository);
-        movieController.setMovieService(movieService);
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        MovieController movieController =applicationContext.getBean(MovieController.class);
         movieController.addUsingConsole();
     }
 }

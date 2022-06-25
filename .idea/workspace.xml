@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="dependency injection" />
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 5 : DVDStore : Changement de perspective">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +41,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/pro/Documents/Personelle/Formations/Spring/Udemy2022/bien-debuter-avec-spring-et-spring-boot/section01/dvdstore",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -69,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655749051710</updated>
       <workItem from="1655749053321" duration="1393000" />
-      <workItem from="1656096698870" duration="3838000" />
+      <workItem from="1656096698870" duration="6094000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -85,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656104399121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exercice 5 : DVDStore : Changement de perspective">
+      <created>1656106580492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656106580492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Contract" />
     <MESSAGE value="dependency injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency injection" />
+    <MESSAGE value="Exercice 5 : DVDStore : Changement de perspective" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 5 : DVDStore : Changement de perspective" />
   </component>
 </project>
