@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 10 : DVDStore : Annotation du chemin du fichier csv">
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 11 : DVDStore : Détection automatique des beans">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/file/FileMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/memory/MemoryMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/service/DefaultMovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655749051710</updated>
       <workItem from="1655749053321" duration="1393000" />
-      <workItem from="1656096698870" duration="9554000" />
+      <workItem from="1656096698870" duration="10451000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656167622054</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercice 11 : DVDStore : Détection automatique des beans">
+      <created>1656169071765</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656169071765</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +168,7 @@
     <MESSAGE value="Exercice 8 : DVDStore : Injection automatique des dépendances" />
     <MESSAGE value="Exercice 9 : DVDStore : Annotation des dépendances" />
     <MESSAGE value="Exercice 10 : DVDStore : Annotation du chemin du fichier csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 10 : DVDStore : Annotation du chemin du fichier csv" />
+    <MESSAGE value="Exercice 11 : DVDStore : Détection automatique des beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 11 : DVDStore : Détection automatique des beans" />
   </component>
 </project>
