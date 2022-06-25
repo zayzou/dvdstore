@@ -3,9 +3,11 @@ package com.zayzou.dvdstore.controller;
 import com.zayzou.dvdstore.entity.Movie;
 import com.zayzou.dvdstore.service.MovieServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import java.util.Scanner;
 
+@Controller
 public class MovieController {
 
     @Autowired //no need to getter and setter

@@ -9,17 +9,21 @@
 
     <context:annotation-config/>
     <context:property-placeholder location="classpath:application.properties"/>
+    <context:component-scan base-package="com.zayzou.dvdstore.repository.memory" />
+    <context:component-scan base-package="com.zayzou.dvdstore.controller" />
+    <context:component-scan base-package="com.zayzou.dvdstore.service" />
 
-    <bean class="com.zayzou.dvdstore.controller.MovieController">
-        <!--        <property name="movieService" ref="movieService"></property>-->
-    </bean>
 
-    <bean id="movieService" class="com.zayzou.dvdstore.service.DefaultMovieService">
-        <!--        <property name="movieRepository" ref="movieRepository"></property>-->
-    </bean>
+<!--    <bean class="com.zayzou.dvdstore.controller.MovieController">-->
+<!--        &lt;!&ndash;        <property name="movieService" ref="movieService"></property>&ndash;&gt;-->
+<!--    </bean>-->
 
-    <bean id="movieRepository" class="com.zayzou.dvdstore.repository.FileMovieRepository">
-        <!--        <property name="file" value="./movies.txt"></property>-->
-    </bean>
+<!--    <bean id="movieService" class="com.zayzou.dvdstore.service.DefaultMovieService">-->
+<!--        &lt;!&ndash;        <property name="movieRepository" ref="movieRepository"></property>&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean id="movieRepository" class="com.zayzou.dvdstore.repository.file.FileMovieRepository">-->
+<!--        &lt;!&ndash;        <property name="file" value="./movies.txt"></property>&ndash;&gt;-->
+<!--    </bean>-->
 
 </beans>

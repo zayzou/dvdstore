@@ -1,10 +1,14 @@
-package com.zayzou.dvdstore.repository;
+package com.zayzou.dvdstore.repository.memory;
 
 import com.zayzou.dvdstore.entity.Movie;
+import com.zayzou.dvdstore.repository.MovieRepositoryInterface;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+@Repository
 public class MemoryMovieRepository implements MovieRepositoryInterface {
 
     private final List<Movie> movies = new ArrayList<>();

@@ -1,12 +1,15 @@
-package com.zayzou.dvdstore.repository;
+package com.zayzou.dvdstore.repository.file;
 
 import com.zayzou.dvdstore.entity.Movie;
+import com.zayzou.dvdstore.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Repository;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+@Repository
 public class FileMovieRepository implements MovieRepositoryInterface {
 
     @Value("${movies.file.location}")
