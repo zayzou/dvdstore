@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 6 : DVDStore : Exploiter le conteneur légér Spring">
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 7 : DVDStore : Valoriser une propriété de type File">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/repository/FileMovieRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655749051710</updated>
       <workItem from="1655749053321" duration="1393000" />
-      <workItem from="1656096698870" duration="6629000" />
+      <workItem from="1656096698870" duration="6804000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656159997848</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercice 7 : DVDStore : Valoriser une propriété de type File">
+      <created>1656163421926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656163421926</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +134,7 @@
     <MESSAGE value="dependency injection" />
     <MESSAGE value="Exercice 5 : DVDStore : Changement de perspective" />
     <MESSAGE value="Exercice 6 : DVDStore : Exploiter le conteneur légér Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 6 : DVDStore : Exploiter le conteneur légér Spring" />
+    <MESSAGE value="Exercice 7 : DVDStore : Valoriser une propriété de type File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 7 : DVDStore : Valoriser une propriété de type File" />
   </component>
 </project>
