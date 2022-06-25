@@ -1,7 +1,7 @@
-package com.zayzou.dvdstore.service;
+package com.zayzou.dvdstore.core.service;
 
-import com.zayzou.dvdstore.entity.Movie;
-import com.zayzou.dvdstore.repository.MovieRepositoryInterface;
+import com.zayzou.dvdstore.core.entity.Movie;
+import com.zayzou.dvdstore.core.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

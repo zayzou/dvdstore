@@ -1,6 +1,6 @@
-package com.zayzou.dvdstore.service;
+package com.zayzou.dvdstore.core.service;
 
-import com.zayzou.dvdstore.entity.Movie;
+import com.zayzou.dvdstore.core.entity.Movie;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.zayzou.dvdstore.entity;
+package com.zayzou.dvdstore.core.entity;
 
 public class Movie {
 

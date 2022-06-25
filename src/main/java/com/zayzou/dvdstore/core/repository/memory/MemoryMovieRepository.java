@@ -1,7 +1,7 @@
-package com.zayzou.dvdstore.repository.memory;
+package com.zayzou.dvdstore.core.repository.memory;
 
-import com.zayzou.dvdstore.entity.Movie;
-import com.zayzou.dvdstore.repository.MovieRepositoryInterface;
+import com.zayzou.dvdstore.core.entity.Movie;
+import com.zayzou.dvdstore.core.repository.MovieRepositoryInterface;
 
 import java.util.ArrayList;
 import java.util.List;

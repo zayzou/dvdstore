@@ -1,7 +1,7 @@
-package com.zayzou.dvdstore.controller;
+package com.zayzou.dvdstore.core.controller;
 
-import com.zayzou.dvdstore.entity.Movie;
-import com.zayzou.dvdstore.service.MovieServiceInterface;
+import com.zayzou.dvdstore.core.entity.Movie;
+import com.zayzou.dvdstore.core.service.MovieServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
@@ -15,18 +15,13 @@ public class MovieController {
 
     public void addUsingConsole() {
         Scanner sc = new Scanner(System.in);
-
         System.out.println("🎬 Movie title ?");
         String title = sc.nextLine();
-
         System.out.println("📽  Movie genre ?");
         String genre = sc.nextLine();
-
         Movie movie = new Movie();
         movie.setGenre(genre);
         movie.setTitle(title);
-
-
         movieService.registerMovie(movie);
     }
 

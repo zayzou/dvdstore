@@ -1,7 +1,7 @@
-package com.zayzou.dvdstore.repository.file;
+package com.zayzou.dvdstore.core.repository.file;
 
-import com.zayzou.dvdstore.entity.Movie;
-import com.zayzou.dvdstore.repository.MovieRepositoryInterface;
+import com.zayzou.dvdstore.core.entity.Movie;
+import com.zayzou.dvdstore.core.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
