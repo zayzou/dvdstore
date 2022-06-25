@@ -12,8 +12,8 @@
         <property name="movieRepository" ref="movieRepository"></property>
     </bean>
 
-    <bean id="movieRepository" class="com.zayzou.dvdstore.repository.MemoryMovieRepository">
-
+    <bean id="movieRepository" class="com.zayzou.dvdstore.repository.FileMovieRepository">
+        <property name="file" value="./movies.txt"></property>
     </bean>
 
 </beans>
