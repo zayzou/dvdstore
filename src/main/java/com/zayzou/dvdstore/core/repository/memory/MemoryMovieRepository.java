@@ -21,4 +21,9 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
     public List<Movie> list() {
         return null;
     }
+
+    @Override
+    public Movie getById(Long id) {
+        return null;
+    }
 }
