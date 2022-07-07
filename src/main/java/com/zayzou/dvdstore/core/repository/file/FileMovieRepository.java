@@ -23,17 +23,21 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         this.file = file;
     }
 
-    public void add(Movie movie) {
+    public Movie add(Movie movie) {
         FileWriter writer;
         try {
+//            (int)Math.ceil((Math.random()*10)+1)
             writer = new FileWriter(this.getFile(), true);
-            String info = movie.getTitle() + ";" + movie.getGenre();
+            long lastId=list().stream().map(Movie::getId).max(Long::compare).orElse(0L);
+            movie.setId(lastId+1);
+            String info =  movie.getId()+";"+movie.getTitle() + ";" + movie.getGenre()+";" + movie.getDescription();
             writer.write(info + "\n");
             writer.close();
             System.out.println(info + " Added successfully to file");
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return movie;
 
     }
 
@@ -43,10 +47,15 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             for (String line; (line = br.readLine()) != null; ) {
                 final Movie movie = new Movie();
-                final String[] titreEtGenre = line.split("\\;");
-                movie.setId(Long.valueOf(titreEtGenre[0]));
-                movie.setTitle(titreEtGenre[1]);
-                movie.setGenre(titreEtGenre[2]);
+                final String[] movieDetails = line.split("\\;");
+                movie.setId(Long.valueOf(movieDetails[0]));
+                movie.setTitle(movieDetails[1]);
+                movie.setGenre(movieDetails[2]);
+                try {
+                    movie.setDescription(movieDetails[3]);
+                }catch (IndexOutOfBoundsException boundsException){
+                    movie.setDescription("");
+                }
                 movies.add(movie);
             }
         } catch (FileNotFoundException e) {

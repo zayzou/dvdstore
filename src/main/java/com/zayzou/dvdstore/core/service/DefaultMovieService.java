@@ -13,8 +13,8 @@ public class DefaultMovieService implements MovieServiceInterface {
     @Autowired //no need to getter and setter
     private MovieRepositoryInterface movieRepository;
 
-    public void registerMovie(Movie movie) {
-        movieRepository.add(movie);
+    public Movie registerMovie(Movie movie) {
+        return  movieRepository.add(movie);
     }
 
     @Override

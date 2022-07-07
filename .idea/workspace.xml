@@ -3,11 +3,15 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BeansEndpointTabSettings">
+    <option name="diagramMode" value="true" />
+    <option name="showContexts" value="false" />
+    <option name="showLibraryBeans" value="false" />
+    <option name="showLiveBeansGraph" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 22 : DVDStore : Séparer les responsabilités des Films">
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 23 : DVDStore : Afficher le détails d'un film">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/controller/MovieController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/memory/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/memory/MemoryMovieRepository.java" afterDir="false" />
@@ -23,13 +27,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,28 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pro/Documents/Personelle/Formations/Spring/Udemy2022/bien-debuter-avec-spring-et-spring-boot/section01/dvdstore-web/src/main/resources/templates&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dd105aaee18337f876feff3bb315ffe0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/pro/Documents/Personelle/Formations/Spring/Udemy2022/bien-debuter-avec-spring-et-spring-boot/section01/dvdstore-web",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "dd105aaee18337f876feff3bb315ffe0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../dvdstore-web" />
       <recent name="$PROJECT_DIR$/../dvdstore-web/src/main/resources/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,6 +89,7 @@
       <recent name="com.zayzou.dvdstore" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zayzou.dvdstore.web.api" />
       <recent name="com.zayzou.dvdstore.web.controller" />
     </key>
   </component>
@@ -88,28 +99,27 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DvdstoreApplication">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zayzou.dvdstore.App" />
-      <module name="dvdstore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zayzou.dvdstore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | create a movie" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="create a movie" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="All in web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | get all movies" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="get all movies" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | get one movie" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="get one movie" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-requests | GET request with environment variables" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="3" requestIdentifier="GET request with environment variables" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="post-requests | Send POST request with json body" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" requestIdentifier="Send POST request with json body" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dvdstore" />
@@ -127,8 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in web" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="HTTP Request.generated-requests | get one movie" />
+        <item itemvalue="HTTP Request.generated-requests | create a movie" />
+        <item itemvalue="HTTP Request.generated-requests | get all movies" />
+        <item itemvalue="HTTP Request.post-requests | Send POST request with json body" />
+        <item itemvalue="HTTP Request.get-requests | GET request with environment variables" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +156,19 @@
       <workItem from="1655749053321" duration="1393000" />
       <workItem from="1656096698870" duration="21333000" />
       <workItem from="1656265411508" duration="2370000" />
-      <workItem from="1656314152032" duration="3510000" />
+      <workItem from="1656314152032" duration="3865000" />
+      <workItem from="1656349719173" duration="1961000" />
+      <workItem from="1656401506191" duration="66000" />
+      <workItem from="1656437402069" duration="4391000" />
+      <workItem from="1656488327604" duration="393000" />
+      <workItem from="1656607383264" duration="3009000" />
+      <workItem from="1656670585444" duration="6106000" />
+      <workItem from="1656877969939" duration="439000" />
+      <workItem from="1656919871498" duration="232000" />
+      <workItem from="1657102009173" duration="387000" />
+      <workItem from="1657104422166" duration="540000" />
+      <workItem from="1657204497683" duration="1284000" />
+      <workItem from="1657228542362" duration="3503000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -257,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656193341858</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Exercice 23 : DVDStore : Afficher le détails d'un film">
+      <created>1656343659011</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656343659011</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +323,7 @@
     <MESSAGE value="Exercice 18 : DVDStore : Fichiers statiques hors de l'application" />
     <MESSAGE value="Lancement&#10;Exercice 21 : DVDStore : Afficher la liste des Films" />
     <MESSAGE value="Exercice 22 : DVDStore : Séparer les responsabilités des Films" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 22 : DVDStore : Séparer les responsabilités des Films" />
+    <MESSAGE value="Exercice 23 : DVDStore : Afficher le détails d'un film" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 23 : DVDStore : Afficher le détails d'un film" />
   </component>
 </project>
