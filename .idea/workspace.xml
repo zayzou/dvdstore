@@ -10,13 +10,9 @@
     <option name="showLiveBeansGraph" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 23 : DVDStore : Afficher le détails d'un film">
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/memory/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/memory/MemoryMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/DefaultMovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/MovieServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/MovieServiceInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +70,11 @@
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "dd105aaee18337f876feff3bb315ffe0"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -115,10 +116,10 @@
     <configuration name="generated-requests | get one movie" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="get one movie" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="get-requests | GET request with environment variables" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="3" requestIdentifier="GET request with environment variables" runType="Run single request">
+    <configuration name="post-requests | Send POST request with json body" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" requestIdentifier="Send POST request with json body" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="post-requests | Send POST request with json body" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" requestIdentifier="Send POST request with json body" runType="Run single request">
+    <configuration name="rest-api_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.rest-api_1 | #1" />
         <item itemvalue="HTTP Request.generated-requests | get one movie" />
         <item itemvalue="HTTP Request.generated-requests | create a movie" />
         <item itemvalue="HTTP Request.generated-requests | get all movies" />
         <item itemvalue="HTTP Request.post-requests | Send POST request with json body" />
-        <item itemvalue="HTTP Request.get-requests | GET request with environment variables" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +169,7 @@
       <workItem from="1657102009173" duration="387000" />
       <workItem from="1657104422166" duration="540000" />
       <workItem from="1657204497683" duration="1284000" />
-      <workItem from="1657228542362" duration="3503000" />
+      <workItem from="1657228542362" duration="7089000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -289,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656343659011</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films">
+      <created>1657234218392</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657234218392</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +332,7 @@
     <MESSAGE value="Lancement&#10;Exercice 21 : DVDStore : Afficher la liste des Films" />
     <MESSAGE value="Exercice 22 : DVDStore : Séparer les responsabilités des Films" />
     <MESSAGE value="Exercice 23 : DVDStore : Afficher le détails d'un film" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 23 : DVDStore : Afficher le détails d'un film" />
+    <MESSAGE value="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films" />
   </component>
 </project>
