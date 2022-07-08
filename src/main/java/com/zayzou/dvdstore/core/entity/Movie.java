@@ -1,9 +1,12 @@
 package com.zayzou.dvdstore.core.entity;
 
+import org.springframework.data.annotation.Id;
+
 public class Movie {
 
     private String title;
     private String genre;
+    @Id
     private Long id;
     private String description;
 

@@ -1,14 +1,13 @@
 package com.zayzou.dvdstore.core.repository;
 
 import com.zayzou.dvdstore.core.entity.Movie;
+import org.springframework.data.repository.CrudRepository;
 
-import java.util.List;
+public interface MovieRepositoryInterface extends CrudRepository<Movie, Long> {
 
-public interface MovieRepositoryInterface {
-
-    Movie add(Movie movie);
+  /*  Movie add(Movie movie);
 
     List<Movie> list();
 
-    Movie getById(Long id);
+    Movie getById(Long id);*/
 }

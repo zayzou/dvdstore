@@ -10,13 +10,16 @@
     <option name="showLiveBeansGraph" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/db/MovieRepository.java" afterDir="false" />
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 31 : DVDStore : Exploiter Spring Data JDBC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/db/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/db/MovieRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/memory/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/memory/MemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/DefaultMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/MovieServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/MovieServiceInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +178,7 @@
       <workItem from="1657104422166" duration="540000" />
       <workItem from="1657204497683" duration="1284000" />
       <workItem from="1657228542362" duration="7652000" />
-      <workItem from="1657278470579" duration="5027000" />
+      <workItem from="1657278470579" duration="6679000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -310,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657273098903</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec">
+      <created>1657286775833</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657286775833</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +358,7 @@
     <MESSAGE value="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films" />
     <MESSAGE value="Exercice 28 : DVDStore : Exploiter l'API ReST dans les pages HTML" />
     <MESSAGE value="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec" />
+    <MESSAGE value="Exercice 31 : DVDStore : Exploiter Spring Data JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 31 : DVDStore : Exploiter Spring Data JDBC" />
   </component>
 </project>

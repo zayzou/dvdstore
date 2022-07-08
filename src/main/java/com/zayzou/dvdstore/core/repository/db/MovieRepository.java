@@ -1,3 +1,4 @@
+/*
 package com.zayzou.dvdstore.core.repository.db;
 
 import com.zayzou.dvdstore.core.entity.Movie;
@@ -50,3 +51,4 @@ public class MovieRepository implements MovieRepositoryInterface {
 
     }
 }
+*/
