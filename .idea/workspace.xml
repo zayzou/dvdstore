@@ -10,9 +10,13 @@
     <option name="showLiveBeansGraph" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/db/MovieRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/file/FileMovieRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,32 +55,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/pro/Documents/Personelle/Formations/Spring/Udemy2022/bien-debuter-avec-spring-et-spring-boot/section01/dvdstore-web",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "dd105aaee18337f876feff3bb315ffe0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pro/Documents/Personelle/Formations/Spring/Udemy2022/bien-debuter-avec-spring-et-spring-boot/section01/dvdstore-web&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;dd105aaee18337f876feff3bb315ffe0&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../dvdstore-web" />
@@ -90,6 +94,7 @@
       <recent name="com.zayzou.dvdstore" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zayzou.dvdstore.core.repository.db" />
       <recent name="com.zayzou.dvdstore.web.api" />
       <recent name="com.zayzou.dvdstore.web.controller" />
     </key>
@@ -169,7 +174,8 @@
       <workItem from="1657102009173" duration="387000" />
       <workItem from="1657104422166" duration="540000" />
       <workItem from="1657204497683" duration="1284000" />
-      <workItem from="1657228542362" duration="7089000" />
+      <workItem from="1657228542362" duration="7652000" />
+      <workItem from="1657278470579" duration="5027000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -297,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657234218392</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Exercice 28 : DVDStore : Exploiter l'API ReST dans les pages HTML">
+      <created>1657273098903</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657273098903</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +346,8 @@
     <MESSAGE value="Exercice 22 : DVDStore : Séparer les responsabilités des Films" />
     <MESSAGE value="Exercice 23 : DVDStore : Afficher le détails d'un film" />
     <MESSAGE value="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lancement&#10;Exercice 27 : DVDStore : Créer une API pour les Films" />
+    <MESSAGE value="Exercice 28 : DVDStore : Exploiter l'API ReST dans les pages HTML" />
+    <MESSAGE value="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec" />
   </component>
 </project>

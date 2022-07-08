@@ -7,6 +7,21 @@ public class Movie {
     private Long id;
     private String description;
 
+    public Movie() {
+    }
+
+    public Movie( Long id,String title, String genre, String description) {
+        this.title = title;
+        this.genre = genre;
+        this.id = id;
+        this.description = description;
+    }
+
+    public Movie(Long id,String title, String genre) {
+        this.id = id;
+        this.title = title;
+        this.genre = genre;
+    }
 
     public String getDescription() {
         return description;
