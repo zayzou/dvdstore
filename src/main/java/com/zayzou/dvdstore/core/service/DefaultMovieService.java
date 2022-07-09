@@ -4,6 +4,7 @@ import com.zayzou.dvdstore.core.entity.Movie;
 import com.zayzou.dvdstore.core.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.NoSuchElementException;
 import java.util.Optional;
@@ -14,6 +15,8 @@ public class DefaultMovieService implements MovieServiceInterface {
     @Autowired //no need to getter and setter
     private MovieRepositoryInterface movieRepository;
 
+
+    @Transactional
     public Movie registerMovie(Movie movie) {
         return movieRepository.save(movie);
     }
