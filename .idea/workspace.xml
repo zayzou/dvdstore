@@ -10,9 +10,16 @@
     <option name="showLiveBeansGraph" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 31 : DVDStore : Exploiter Spring Data JDBC">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="675c4cdd-b4c1-42c4-a883-2a161834ebc1" name="Changes" comment="Exercice 35 : DVDStore : Fetch à priori sur l'acteur principal et les avis without @NamedEntityGraph">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/repository/MovieRepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/service/DefaultMovieService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,38 +58,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pro/Documents/Personelle/Formations/Spring/Udemy2022/bien-debuter-avec-spring-et-spring-boot/section01/dvdstore-web&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dd105aaee18337f876feff3bb315ffe0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/pro/Documents/Personelle/Formations/Spring/Udemy2022/bien-debuter-avec-spring-et-spring-boot/section01/dvdstore/src/main/java/com/zayzou/dvdstore/core/entity",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "spring.configuration.checksum": "dd105aaee18337f876feff3bb315ffe0"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/zayzou/dvdstore/core/entity" />
+      <recent name="$PROJECT_DIR$/../dvdstore-web/src/main/resources/database" />
       <recent name="$PROJECT_DIR$/../dvdstore-web" />
       <recent name="$PROJECT_DIR$/../dvdstore-web/src/main/resources/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../dvdstore-web/src/main/resources/database" />
+      <recent name="$PROJECT_DIR$/../dvdstore-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/../dvdstore-web/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
@@ -122,13 +133,6 @@
     </configuration>
     <configuration name="rest-api_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
-    </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="dvdstore" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zayzou.dvdstore.App" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="DvdstoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="web" />
@@ -171,7 +175,10 @@
       <workItem from="1657104422166" duration="540000" />
       <workItem from="1657204497683" duration="1284000" />
       <workItem from="1657228542362" duration="7652000" />
-      <workItem from="1657278470579" duration="6751000" />
+      <workItem from="1657278470579" duration="6883000" />
+      <workItem from="1657302829719" duration="943000" />
+      <workItem from="1657313001768" duration="866000" />
+      <workItem from="1657363534658" duration="8006000" />
     </task>
     <task id="LOCAL-00001" summary="Contract">
       <created>1656103073528</created>
@@ -320,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657289431336</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update .gitignore">
+      <created>1657289541084</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657289541084</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +373,12 @@
     <MESSAGE value="Exercice 28 : DVDStore : Exploiter l'API ReST dans les pages HTML" />
     <MESSAGE value="Exercice 30 : DVDStore : Lire et écrire dans la base de données avec" />
     <MESSAGE value="Exercice 31 : DVDStore : Exploiter Spring Data JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 31 : DVDStore : Exploiter Spring Data JDBC" />
+    <MESSAGE value="update .gitignore" />
+    <MESSAGE value="Exercice 35 : DVDStore : Fetch à priori sur l'acteur principal et les avis without @NamedEntityGraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 35 : DVDStore : Fetch à priori sur l'acteur principal et les avis without @NamedEntityGraph" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
